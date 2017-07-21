@@ -1,6 +1,6 @@
 {
   "name": "@umm/enum-tryparse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enum.TryParse for .NET 3.5",
   "homepage": "https://github.com/umm-projects/enum_tryparse",
   "bugs": {
