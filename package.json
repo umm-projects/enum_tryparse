@@ -1,0 +1,34 @@
+{
+  "name": "@umm/enum-tryparse",
+  "version": "0.1.0",
+  "description": "Enum.TryParse for .NET 3.5",
+  "homepage": "https://github.com/umm-projects/enum_tryparse",
+  "bugs": {
+    "url": "https://github.com/umm-projects/enum_tryparse/issues"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "postuninstall": "node scripts/postuninstall.js",
+    "build:test": "tar -tf $(npm pack -s) && $(npm bin)/rimraf $_"
+  },
+  "author": {
+    "name": "Tetsuya Mori",
+    "email": "monry84@gmail.com",
+    "url": "https://github.com/monry"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm-projects/enum_tryparse"
+  },
+  "files": [
+    "Assets",
+    "scripts"
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.1",
+    "rsync": "^0.6.1"
+  },
+  "devDependencies": {}
+}
