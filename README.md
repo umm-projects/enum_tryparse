@@ -11,7 +11,7 @@
 # Install
 
 ```shell
-$ npm install @umm/enum-tryparse
+$ npm install @umm/enum_tryparse
 ```
 
 # Usage
