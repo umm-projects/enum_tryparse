@@ -11,7 +11,7 @@
 # Install
 
 ```shell
-$ npm install @umm/enum_tryparse
+$ npm install github:umm-projects/enum_tryparse.git
 ```
 
 # Usage
